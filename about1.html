@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <script src="https://kit.fontawesome.com/d882e6387b.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+           margin: 10px 0 40px 0;
+            padding-top: 20px;
+            color: #2B3A42;
+
+        }
+
+        .logo {
+            width: 14%;
+        }
+
+        .topnav {
+            float: right;
+            overflow: hidden;
+        }
+
+        .topnav a {
+            text-align: center;
+            padding: 14px 14px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #2B3A42;
+        }
+
+        .topnav a:hover {
+            color: #FF530D;
+        }
+
+        #background {
+            width: 1200px;
+            height: 550px;
+            background-image: url(photos/21643119.jpg);
+            background-repeat: no-repeat;
+/*            background-size: cover;*/
+            padding-bottom: 60px;
+            padding-top: 80px;
+            clear: right;
+        }
+
+        .profile {
+            width: 200px;
+            border-radius: 50%;
+            margin: 20px 30px 0 30px;
+        }
+
+        .motto {
+/*            position: relative;*/
+            top: 25%;
+            left: 15%;
+
+
+        }
+
+
+
+
+
+        footer {
+            height: 80px;
+            background-color: white;
+            font-size: 26px;
+            text-align: right;
+            padding-right: 15px;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+
+        i:hover {
+            animation: shake 0.5s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes shake {
+            0% {
+                transform: translate(1px, 1px) rotate(0deg);
+            }
+
+            10% {
+                transform: translate(-1px, -2px) rotate(-1deg);
+            }
+
+            20% {
+                transform: translate(-3px, 0px) rotate(1deg);
+            }
+
+            30% {
+                transform: translate(3px, 2px) rotate(0deg);
+            }
+
+            40% {
+                transform: translate(1px, -1px) rotate(1deg);
+            }
+
+            50% {
+                transform: translate(-1px, 2px) rotate(-1deg);
+            }
+
+            60% {
+                transform: translate(-3px, 1px) rotate(0deg);
+            }
+
+            70% {
+                transform: translate(3px, 1px) rotate(-1deg);
+            }
+
+            80% {
+                transform: translate(-1px, -1px) rotate(1deg);
+            }
+
+            90% {
+                transform: translate(1px, 2px) rotate(0deg);
+            }
+
+            100% {
+                transform: translate(1px, -2px) rotate(-1deg);
+            }
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+/*
+        .wrapper {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+*/
+    </style>
+</head>
+
+<body>
+   <div class="wrapper">
+    <header>
+        <img src="photos/logo3.png" alt="logo" class="logo">
+
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="portofolio.html">Portofolio</a>
+            <a href="contact.html">Contact me</a>
+        </div>
+    </header>
+
+    <div id="background">
+        <div class="flex-container">
+            <img src="photos/SimonaHriscu.jpg" alt="simona" class="profile">
+            <article>
+                <h1>About</h1>
+                <br>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eaque consequatur quod, adipisci ipsum deleniti minima ratione error inventore tempore quasi totam molestiae nulla eius placeat mollitia pariatur sequi tenetur, quibusdam excepturi. Facere veniam quod vel. Maxime, in, assumenda! Illo corporis, doloribus, accusamus dicta vitae beatae explicabo officia doloremque. Sequi!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere neque asperiores, itaque natus reprehenderit ab assumenda illo rerum soluta suscipit quidem voluptatibus molestias quod, commodi, fugit voluptates repellat minus id saepe provident a praesentium officia. Facilis, est, nobis, at doloremque expedita dolore, maxime repudiandae voluptatum debitis vitae ratione fuga distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi voluptate fuga deserunt. Modi dicta omnis incidunt blanditiis porro, itaque veniam.
+                </p>
+            
+
+            </article>
+
+        </div>
+        <p class="motto"><b>Designer. Developer. Dreamer.</b></p>
+    </div>
+
+    <footer>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-github"></i>
+
+    </footer>
+
+
+</div>
+</body></html>
